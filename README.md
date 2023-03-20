@@ -27,3 +27,8 @@ The project contains the following notebooks:
 - bert.ipynb: BERT model.
 
 Each notebook contains the necessary code to train and evaluate the respective models.
+
+To create a conda enviroment use:
+
+´conda env create -f environment.yml´
+
