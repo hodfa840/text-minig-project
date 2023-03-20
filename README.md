@@ -25,5 +25,5 @@ The project contains the following notebooks:
 - lstm.ipynb: LSTM model.
 - cnn.ipynb: CNN model.
 - bert.ipynb: BERT model.
-- 
+
 Each notebook contains the necessary code to train and evaluate the respective models.
