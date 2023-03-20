@@ -30,5 +30,5 @@ Each notebook contains the necessary code to train and evaluate the respective m
 
 To create a conda enviroment use:
 
-´conda env create -f environment.yml´
-
+```conda env create -f environment.yml
+```
