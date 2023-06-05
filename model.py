@@ -23,7 +23,7 @@ test_data, val_data, test_classes, val_classes = train_test_split(val_test_data,
 
 activation=tf.nn.swish
 
-
+#updated in the notebook
 get_custom_objects().update({'swish': Activation(swish)})
 # Define SiLU activation function
 get_custom_objects().update({'swish': Activation(swish)})
