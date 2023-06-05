@@ -13,7 +13,7 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.utils import get_custom_objects
 import itertools
 from sklearn.model_selection import train_test_split
-
+#
 train_data, val_test_data, train_classes, val_test_classes = train_test_split(data_sequences, data_class,test_size = 0.3, stratify=data_class,random_state=42)
 
 test_data, val_data, test_classes, val_classes = train_test_split(val_test_data, val_test_classes, test_size = 0.5, stratify=val_test_classes,random_state=42)
