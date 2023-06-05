@@ -29,7 +29,7 @@ test_data, val_data, test_classes, val_classes = train_test_split(val_test_data,
  
 inputs = Input(shape=(10,))
 embedding_layer = Embedding(input_dim=num_words, output_dim=100, trainable=True, input_length=10, weights=[embedding_wights])(inputs)
-
+#updated in the notebook
 cnn_model = Sequential()
 # The Embedding layer
 cnn_model.add(Embedding(input_dim=num_words, output_dim=100, trainable=True, input_length=10, weights=[embedding_wights]))
