@@ -49,8 +49,8 @@ def random_subset(data, n):
     # Print number of samples in each class in the subset dataframe
     print(subset_df['class'].value_counts())
     return(subset_df)
-
-#sampled_data = random_subset(data, 100)
+n = 30000
+sampled_data = random_subset(data,n )
 sampled_data = data
 # Preprocess the data
 
